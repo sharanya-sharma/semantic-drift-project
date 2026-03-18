@@ -1,5 +1,18 @@
+# Raw data - too large
+data/raw/
+
+# Embeddings - too large
+embeddings/*.bin
+embeddings/*.vec
+
+# Python virtual environment
 venv/
-data/
-models/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
