@@ -1,9 +1,12 @@
-# Raw data - too large
-data/raw/
+# Data (ALL datasets)
+data/
 
-# Embeddings - too large
-embeddings/*.bin
-embeddings/*.vec
+# Embeddings
+embeddings/
+
+# Drift outputs (generated files)
+drift/*.csv
+drift/*.npy
 
 # Python virtual environment
 venv/
