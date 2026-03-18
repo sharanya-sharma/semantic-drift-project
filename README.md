@@ -17,7 +17,7 @@ SEMANTIC-DRIFT-PROJECT/
 │   │   ├── news_clean.txt        
 │   │   └── social_clean.txt      
 │   ├── ldt/
-│   │   └── hindi_ldt.csv         ❌ MISSING — needs to be downloaded
+│   │   └── hindi_ldt.csv         *MISSING — needs to be downloaded
 │   └── resources/
 │       └── hindi_stopwords.txt
 │
@@ -28,13 +28,13 @@ SEMANTIC-DRIFT-PROJECT/
 │   └── social_fasttext_skipgram.vec  
 │
 ├── drift/
-│   ├── drift_scores.csv              ✅ 32,820 words with drift scores
-│   └── rotation_matrix_R.npy         ✅ 300x300 rotation matrix
+│   ├── drift_scores.csv              *32,820 words with drift scores
+│   └── rotation_matrix_R.npy         *300x300 rotation matrix
 │
-├── results/                          ❌ EMPTY — pending analysis
+├── results/                          *EMPTY — pending analysis
 │   └── plots/
 │
-├── models/                           ❌ EMPTY
+├── models/                           *EMPTY
 │
 ├── notebooks/
 │   └── exploration.ipynb
@@ -49,10 +49,10 @@ SEMANTIC-DRIFT-PROJECT/
 │   ├── alignment/
 │   │   └── align_embeddings.py   
 │   ├── analysis/
-│   │   ├── merge_ldt.py          ❌ pending LDT data
-│   │   └── statistical_model.py  ❌ pending LDT data
+│   │   ├── merge_ldt.py          *pending LDT data
+│   │   └── statistical_model.py  *pending LDT data
 │   └── visualization/
-│       └── plot_results.py       ❌ pending
+│       └── plot_results.py       *pending
 │
 ├── venv/
 ├── requirements.txt              
