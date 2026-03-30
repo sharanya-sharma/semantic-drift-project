@@ -1,0 +1,4 @@
+model,R2,AIC,n
+Drift only  (RT ~ drift_score),0.0233,60288.61,6483
+Baseline    (RT ~ word_length),0.128,59553.37,6483
+Full model  (RT ~ drift_score + word_length),0.1762,59187.07,6483

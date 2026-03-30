@@ -1,0 +1,35 @@
+============================================================
+STATISTICAL MODELLING RESULTS
+Semantic Drift as Predictor of Reaction Time
+============================================================
+
+Dataset: 6,483 words (merged LDT + drift)
+RT range: 525.6 ms to 1444.9 ms
+Mean RT:  725.86 ms
+Drift range: 0.1681 to 0.8615
+
+── Model Comparison ─────────────────────────────
+Model                                             R²         AIC
+-----------------------------------------------------------------
+Drift only  (RT ~ drift_score)                0.0233    60288.61
+Baseline    (RT ~ word_length)                 0.128    59553.37
+Full model  (RT ~ drift_score + word_length)  0.1762    59187.07
+
+── Drift Coefficient (simple linear regression) ─
+  Slope     : 144.5629
+  R         : 0.1527
+  R²        : 0.0233
+  p-value   : 0.000000
+  Std Error : 11.6241
+
+  → Drift is SIGNIFICANT at p < 0.05
+
+── Interpretation ───────────────────────────────
+  Positive significant effect found.
+  Words with higher semantic drift show slower RT.
+  This supports the representational instability hypothesis:
+  domain-based semantic drift increases cognitive processing cost.
+
+── AIC Comparison ───────────────────────────────
+  Full model AIC is 366.3 lower than baseline.
+  Adding drift_score improves model fit.
