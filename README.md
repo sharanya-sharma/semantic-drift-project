@@ -81,10 +81,6 @@ SEMANTIC-DRIFT-PROJECT/
 │       ├── pca_embedding_spaces.png
 │       └── drift_vs_rt.png
 │
-├── models/
-│
-├── notebooks/
-│   └── exploration.ipynb
 │
 ├── src/
 │   ├── preprocessing/
